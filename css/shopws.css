@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid white;
+
+
+}
+
+.items {
+    display: grid;
+    grid-template-columns:max-content;
+    gap: 10px;
+
+
+}
+.item {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+.cart {
+    margin-top: 20px;
+    
+}
+.cart h2 {
+    border-bottom: 1px solid white;
+
+}
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.cart li {
+    margin: 5px 0;
+}
